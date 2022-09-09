@@ -1,8 +1,8 @@
-package github.com/kljyrx/help
+package help
 
-import fmt
+import "fmt"
 
-func scanlnInt() (int, error) {
+func ScanlnInt() (int, error) {
 	var input string
 	var n int
 	var err error
