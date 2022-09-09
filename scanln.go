@@ -1,6 +1,10 @@
 package help
 
-import "fmt"
+import (
+    "fmt"
+    "errors"
+    "strconv"
+)
 
 func ScanlnInt() (int, error) {
 	var input string
